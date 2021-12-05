@@ -1,13 +1,15 @@
-import React from "react";
-import "./style.css";
-import Header from "./Components/Header"
-import Content from "./Components/Content"
-import "./App.scss"
-export default function App() {
-  return (
-    <>
-     <Header/>
-     <Content/>
-    </>
-  );
+import React from 'react';
+import Header from './components/Header';
+import Content from './components/Content'
+import "./App.css";
+
+const App = () => {
+    return (
+        <div>
+        <Header />
+         <Content/>
+        </div>
+    );
 }
+
+export default App
